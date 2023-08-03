@@ -12,10 +12,10 @@ $discord_code = $_GET['code'];
 
 $payload = [
     'code' => $discord_code,
-    'client_id' => '1136323498306961489',
-    'client_secret' => 'l5yccRpWT9oq0tB7EiuV_9vT_fEibm-u',
+    'client_id' => 'YOUR_CLIENT_ID',
+    'client_secret' => 'YOUR_CLIENT_SECRET',
     'grant_type' => 'authorization_code',
-    'redirect_uri' => 'http://127.0.0.1/new_dashboard/process-oauth.php',
+    'redirect_uri' => 'http://127.0.0.1/PROJEKT/process-oauth.php',
     'scope' => 'identify%20guilds%20email',
 ];
 
